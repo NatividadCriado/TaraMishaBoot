@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Courgette', cursive; */
+
+body img{
+    background-image: url("Imagenes/encabezado.jpg");
+    height: 15vw;
+    width: 100vw;
+}
+
+body{
+    background-color: rgb(248, 207, 216);
+    font-family: 'Courgette', cursive;
+}
+ul li a{
+    color: rgb(138, 44, 138);
+}
+.barra{
+    display: grid;
+    height: auto;
+    width: 100vw;
+    background-color: rgb(248, 93, 201);
+    justify-items: center;
+    align-items: center;
+    margin-top: 0.15rem;
+    list-style-type: none;
+}
+h1{
+    text-align: center;
+}
+.nav-link{
+    text-align: center;
+    margin-top: none;
+}
+.card-title{
+    text-align: center;
+    color: rgb(138, 44, 138);
+    background-color:rgb(248, 207, 216) ;
+}
+footer{
+    display: grid;
+    height: auto;
+    width: 100vw;
+    background-color: orange;
+    justify-items: center;
+}
+form fieldset legend{
+    font-size: 25px;
+    color:rgb(112, 47, 107);
+}
+label{
+    font-size: 16px;
+    color:rgb(112, 47, 107) ;
+}
+textarea{
+    width: 400px;
+    height: 150px;
+}
