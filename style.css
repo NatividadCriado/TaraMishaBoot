@@ -11,6 +11,7 @@ body{
     background-color: rgb(248, 207, 216);
     font-family: 'Courgette', cursive;
 }
+
 ul li a{
     color: rgb(138, 44, 138);
 }
@@ -46,12 +47,29 @@ footer{
 form fieldset legend{
     font-size: 25px;
     color:rgb(112, 47, 107);
+    margin-left: 0.5rem;
 }
 label{
     font-size: 16px;
     color:rgb(112, 47, 107) ;
+    margin-left: 0.5rem;
 }
 textarea{
     width: 400px;
     height: 150px;
+    margin-left: 0.5rem;
+}
+input{
+    margin-left: 0.5rem;
+}
+dl{
+    margin-left: 0.5rem;
+}
+p{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+div img{
+    height: 12rem;
+    width: 1rem;
 }
