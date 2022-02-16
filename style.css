@@ -73,3 +73,40 @@ div img{
     height: 12rem;
     width: 1rem;
 }
+.animacion{
+    animation: anima;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+@keyframes anima {
+    0%{
+        font-size: 25px;
+    }
+    
+    25%{
+        font-size: 20px;
+    }
+    50%{
+        font-size: 15px;
+    }
+
+    75%{
+        font-size: 20px;
+    }
+    100%{
+        font-size: 25px ;
+    }
+}
+.card-img-top{
+    height: 15rem;
+    width: 15rem;
+    justify-self: center;
+}
+.card{
+    height: 15rem;
+    width: 15rem;
+    margin-bottom: 5rem;
+    margin-left: 3.5rem;
+}
